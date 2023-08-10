@@ -1,43 +1,22 @@
-# Saying hello to new language
-print("Hello, World!")
+""" CREATING A FUNCTION IN PYTHON
+We can create a user-defined
+function in Python, using the def keyword. We can add any type of functionalities and properties to it as we require.
+"""
+def fun():
+print("Welcome to GFG")
 
-#Syntax
 
-if 5 > 2:
-  print("Five is greater than two!")
+""" After creating a function in Python we can call
+ it by using the name of the function followed by parenthesis 
+ containing parameters of that particular function."""
 
-#Variables
+# A simple Python function
+def fun():
+    print("Welcome to GFG")
 
-x = 5
-y = "John"
-print(x)
-print(y)
 
-#CASTING
+# Driver code to call a function
+fun()
 
-x = str(3)
-y = int(3)
-z = float(3)
-
-print(x)
-print(y)
-print(z)
-
-# Multiple variables
-
-fruits = ["apple", "banana", "cherry"]
-x, y, z = fruits
-
-print(x)
-print(y)
-print(z)
-
-#Function
-
-x = "awesome"
-
-def myfunc():
-  print("Python is " + x)
-
-myfunc()
+#Defining and calling a function with parameters
 
