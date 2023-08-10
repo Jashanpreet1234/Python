@@ -5,3 +5,10 @@ print("Hello, World!")
 
 if 5 > 2:
   print("Five is greater than two!")
+
+#Variables
+
+x = 5
+y = "John"
+print(x)
+print(y)
