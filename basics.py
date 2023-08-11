@@ -1,7 +1,14 @@
-name ="jashan"
-age = 50
-colour = "pink"
+ # Escape Characters
+# Single Quote
+text = '1.)  It\'s easy to  learn  a   langauge'
+print(text)
+print()
+# Backslash( for inserting one backslash
+txt = "2.)  This will insert one \\ (backslash)."
+print(txt)
+print()
+# New line
 
-my_pink = " I am {} and {} old my fvt colour is {}"
-
-print(my_pink.format(name, age, colour))
+txt1= "3.)  Hello\nWorld!"
+print(txt1)
+print()
